@@ -1,0 +1,132 @@
+[  4] Median of Two Sorted Arrays                                  Hard   (22.05 %)      
+[ 10] Regular Expression Matching                                  Hard   (24.18 %)      
+[ 23] Merge k Sorted Lists                                         Hard   (27.53 %)      
+[ 25] Reverse Nodes in k-Group                                     Hard   (30.97 %)      
+[ 30] Substring with Concatenation of All Words                    Hard   (22.04 %)      
+[ 32] Longest Valid Parentheses                                    Hard   (23.13 %)      
+[ 37] Sudoku Solver                                                Hard   (30.66 %)      
+[ 41] First Missing Positive                                       Hard   (25.60 %)      
+[ 42] Trapping Rain Water                                          Hard   (36.95 %)      
+[ 44] Wildcard Matching                                            Hard   (20.35 %)      
+[ 45] Jump Game II                                                 Hard   (26.23 %)      
+[ 51] N-Queens                                                     Hard   (31.58 %)      
+[ 52] N-Queens II                                                  Hard   (45.40 %)      
+[ 57] Insert Interval                                              Hard   (28.01 %)      
+[ 65] Valid Number                                                 Hard   (12.78 %)      
+[ 68] Text Justification                                           Hard   (19.35 %)      
+[ 72] Edit Distance                                                Hard   (31.91 %)      
+[ 76] Minimum Window Substring                                     Hard   (25.78 %)      
+[ 84] Largest Rectangle in Histogram                               Hard   (26.96 %)      
+[ 85] Maximal Rectangle                                            Hard   (28.42 %)      
+[ 87] Scramble String                                              Hard   (29.33 %)      
+[ 97] Interleaving String                                          Hard   (24.78 %)      
+[ 99] Recover Binary Search Tree                                   Hard   (30.10 %)      
+[115] Distinct Subsequences                                        Hard   (31.70 %)      
+[123] Best Time to Buy and Sell Stock III                          Hard   (29.54 %)      
+[124] Binary Tree Maximum Path Sum                                 Hard   (26.35 %)      
+[126] Word Ladder II                                               Hard   (14.36 %)      
+[128] Longest Consecutive Sequence                                 Hard   (37.21 %)      
+[132] Palindrome Partitioning II                                   Hard   (24.39 %)      
+[135] Candy                                                        Hard   (24.88 %)      
+[140] Word Break II                                                Hard   (23.59 %)      
+[145] Binary Tree Postorder Traversal                              Hard   (40.55 %)      
+[146] LRU Cache                                                    Hard   (18.25 %)      
+[149] Max Points on a Line                                         Hard   (15.28 %)      
+[154] Find Minimum in Rotated Sorted Array II                      Hard   (37.33 %)      
+[158] Read N Characters Given Read4 II - Call multiple times       Hard   (24.36 %)  🔒   
+[159] Longest Substring with At Most Two Distinct Characters       Hard   (41.46 %)  🔒   
+[164] Maximum Gap                                                  Hard   (29.66 %)      
+[174] Dungeon Game                                                 Hard   (23.89 %)      
+[185] Department Top Three Salaries                                Hard   (17.62 %)      
+[188] Best Time to Buy and Sell Stock IV                           Hard   (24.39 %)      
+[212] Word Search II                                               Hard   (23.66 %)      
+[214] Shortest Palindrome                                          Hard   (24.49 %)      
+[218] The Skyline Problem                                          Hard   (27.71 %)      
+[224] Basic Calculator                                             Hard   (27.45 %)      
+[233] Number of Digit One                                          Hard   (28.59 %)      
+[239] Sliding Window Maximum                                       Hard   (33.37 %)      
+[248] Strobogrammatic Number III                                   Hard   (32.11 %)  🔒   
+[262] Trips and Users                                              Hard   (17.54 %)      
+[265] Paint House II                                               Hard   (38.08 %)  🔒   
+[269] Alien Dictionary                                             Hard   (24.71 %)  🔒   
+[272] Closest Binary Search Tree Value II                          Hard   (39.22 %)  🔒   
+[273] Integer to English Words                                     Hard   (22.29 %)      
+[282] Expression Add Operators                                     Hard   (29.97 %)      
+[291] Word Pattern II                                              Hard   (37.99 %)  🔒   
+[295] Find Median from Data Stream                                 Hard   (27.33 %)      
+[296] Best Meeting Point                                           Hard   (52.01 %)  🔒   
+[297] Serialize and Deserialize Binary Tree                        Hard   (33.69 %)      
+[301] Remove Invalid Parentheses                                   Hard   (35.26 %)      
+[302] Smallest Rectangle Enclosing Black Pixels                    Hard   (45.64 %)  🔒   
+[305] Number of Islands II                                         Hard   (39.12 %)  🔒   
+[308] Range Sum Query 2D - Mutable                                 Hard   (23.29 %)  🔒   
+[312] Burst Balloons                                               Hard   (42.96 %)      
+[315] Count of Smaller Numbers After Self                          Hard   (34.62 %)      
+[316] Remove Duplicate Letters                                     Hard   (29.77 %)      
+[317] Shortest Distance from All Buildings                         Hard   (34.13 %)  🔒   
+[321] Create Maximum Number                                        Hard   (24.60 %)      
+[327] Count of Range Sum                                           Hard   (30.03 %)      
+[329] Longest Increasing Path in a Matrix                          Hard   (36.68 %)      
+[330] Patching Array                                               Hard   (32.19 %)      
+[335] Self Crossing                                                Hard   (25.57 %)      
+[336] Palindrome Pairs                                             Hard   (26.37 %)      
+[340] Longest Substring with At Most K Distinct Characters         Hard   (38.95 %)  🔒   
+[352] Data Stream as Disjoint Intervals                            Hard   (40.42 %)      
+[354] Russian Doll Envelopes                                       Hard   (32.31 %)      
+[358] Rearrange String k Distance Apart                            Hard   (31.64 %)  🔒   
+[363] Max Sum of Rectangle No Larger Than K                        Hard   (33.25 %)      
+[381] Insert Delete GetRandom O(1) - Duplicates allowed            Hard   (29.03 %)      
+[391] Perfect Rectangle                                            Hard   (26.68 %)      
+[403] Frog Jump                                                    Hard   (32.39 %)      
+[407] Trapping Rain Water II                                       Hard   (37.25 %)      
+[410] Split Array Largest Sum                                      Hard   (38.09 %)      
+[411] Minimum Unique Word Abbreviation                             Hard   (32.94 %)  🔒   
+[420] Strong Password Checker                                      Hard   (20.61 %)      
+[425] Word Squares                                                 Hard   (42.87 %)  🔒   
+[432] All O`one Data Structure                                     Hard   (28.18 %)      
+[440] K-th Smallest in Lexicographical Order                       Hard   (25.18 %)      
+[446] Arithmetic Slices II - Subsequence                           Hard   (27.14 %)      
+[460] LFU Cache                                                    Hard   (24.18 %)      
+[465] Optimal Account Balancing                                    Hard   (36.99 %)  🔒   
+[466] Count The Repetitions                                        Hard   (28.10 %)      
+[471] Encode String with Shortest Length                           Hard   (42.37 %)  🔒   
+[472] Concatenated Words                                           Hard   (30.40 %)      
+[480] Sliding Window Median                                        Hard   (31.39 %)      
+[483] Smallest Good Base                                           Hard   (33.35 %)      
+[488] Zuma Game                                                    Hard   (37.34 %)      
+[493] Reverse Pairs                                                Hard   (20.55 %)      
+[499] The Maze III                                                 Hard   (32.57 %)  🔒   
+[502] IPO                                                          Hard   (36.55 %)      
+[514] Freedom Trail                                                Hard   (39.32 %)      
+[517] Super Washing Machines                                       Hard   (36.90 %)      
+[527] Word Abbreviation                                            Hard   (41.79 %)  🔒   
+[546] Remove Boxes                                                 Hard   (34.02 %)      
+[552] Student Attendance Record II                                 Hard   (31.28 %)      
+[564] Find the Closest Palindrome                                  Hard   (17.32 %)      
+[568] Maximum Vacation Days                                        Hard   (40.09 %)  🔒   
+[569] Median Employee Salary                                       Hard   (32.18 %)  🔒   
+[571] Find Median Given Frequency of Numbers                       Hard   (30.85 %)  🔒   
+[579] Find Cumulative Salary of an Employee                        Hard   (23.37 %)  🔒   
+[587] Erect the Fence                                              Hard   (32.17 %)      
+[588] Design In-Memory File System                                 Hard   (34.56 %)  🔒   
+[591] Tag Validator                                                Hard   (29.55 %)      
+[600] Non-negative Integers without Consecutive Ones               Hard   (30.10 %)      
+[601] Human Traffic of Stadium                                     Hard   (34.39 %)      
+[615] Average Salary: Departments VS Company                       Hard   (33.18 %)  🔒   
+[618] Students Report By Geography                                 Hard   (41.60 %)  🔒   
+[629] K Inverse Pairs Array                                        Hard   (26.37 %)      
+[630] Course Schedule III                                          Hard   (27.23 %)      
+[631] Design Excel Sum Formula                                     Hard   (26.49 %)  🔒   
+[632] Smallest Range                                               Hard   (42.32 %)      
+[639] Decode Ways II                                               Hard   (23.62 %)      
+[642] Design Search Autocomplete System                            Hard   (30.09 %)  🔒   
+[644] Maximum Average Subarray II                                  Hard   (21.68 %)  🔒   
+[656] Coin Path                                                    Hard   (24.38 %)  🔒   
+[660] Remove 9                                                     Hard   (46.77 %)  🔒   
+[664] Strange Printer                                              Hard   (30.98 %)      
+[668] Kth Smallest Number in Multiplication Table                  Hard   (36.58 %)      
+[675] Cut Off Trees for Golf Event                                 Hard   (27.58 %)      
+[679] 24 Game                                                      Hard   (38.20 %)      
+[683] K Empty Slots                                                Hard   (36.91 %)      
+[685] Redundant Connection II                                      Hard   (28.97 %)      
+[689] Maximum Sum of 3 Non-Overlapping Subarrays                   Hard   (41.78 %)      
