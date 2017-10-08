@@ -1,10 +1,10 @@
 package com.programapprentice.app;
 
-import com.programapprentice.app.reverseinteger007.Solution;
+import com.programapprentice.app.easy.ReverseInteger007;
 
 public class App {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.reverse(-2147483412));
+        ReverseInteger007 reverseInteger007 = new ReverseInteger007();
+        System.out.println(reverseInteger007.reverse(-2147483412));
     }
 }

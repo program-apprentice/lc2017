@@ -1,9 +1,9 @@
-package com.programapprentice.app.twosum001;
+package com.programapprentice.app.easy;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class TwoSum001 {
 
     /**
     * https://leetcode.com/problems/two-sum
@@ -25,8 +25,8 @@ public class Solution {
      * 2. Is there any duplication?
      * 3. What are edge cases?
      *
-     * Solution 1: Sort it, then traverse from head and end. Time Complexity: O(nLogn)
-     * Solution 2: Create a hash map and then traverse. Time Complexity: O(n)
+     * ReverseInteger007 1: Sort it, then traverse from head and end. Time Complexity: O(nLogn)
+     * ReverseInteger007 2: Create a hash map and then traverse. Time Complexity: O(n)
      *
      * Further thinking, how can we scale this solution?
      * It depends on how data is stored or partitioned? Ordered or not ordered?

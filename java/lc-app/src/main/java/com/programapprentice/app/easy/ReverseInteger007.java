@@ -1,6 +1,6 @@
-package com.programapprentice.app.reverseinteger007;
+package com.programapprentice.app.easy;
 
-public class Solution {
+public class ReverseInteger007 {
     /**
      *
      https://leetcode.com/problems/reverse-integer
