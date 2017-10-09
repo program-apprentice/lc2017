@@ -4,7 +4,7 @@ X [013] Roman to Integer                                              Easy   (46
 X [014] Longest Common Prefix                                         Easy   (31.49 %)
 X [020] Valid Parentheses                                             Easy   (33.57 %)
 X [021] Merge Two Sorted Lists                                        Easy   (39.24 %)
-- [026] Remove Duplicates from Sorted Array                           Easy   (35.41 %)
+X [026] Remove Duplicates from Sorted Array                           Easy   (35.41 %)
 X [028] Implement strStr()                                            Easy   (28.37 %)
 - [038] Count and Say                                                 Easy   (35.22 %)
 [053] Maximum Subarray                                              Easy   (39.75 %)
