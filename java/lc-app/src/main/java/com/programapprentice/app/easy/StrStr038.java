@@ -20,6 +20,28 @@ public class StrStr038 {
      Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
      * */
 
+    public int[] generateNext(String needle) {
+        int[] next = new int[needle.length()];
+        next[0] = -1;
+        int k = -1;
+        int j = 0;
+        while(j < needle.length() - 1) {
+            if (k == -1 || needle.charAt(j) == needle.charAt(k)) {
+                k++;
+                j++;
+                if (needle.charAt(j) != needle.charAt(k)) {
+                    next[j] = k;
+                } else {
+                    next[j] = next[k];
+                }
+            } else {
+                k = next[k];
+            }
+        }
+
+        return  next;
+    }
+
     public int strStr(String haystack, String needle) {
         if (needle == null || haystack == null) {
             return -1;
@@ -34,27 +56,19 @@ public class StrStr038 {
         }
         int i = 0;
         int j = 0;
-        int startIdx = 0;
-        int lengthMatched = 0;
+        int[] next = generateNext(needle);
         while(i < haystack.length() && j < needle.length()) {
-            while(j < needle.length() && i < haystack.length()) {
-                if (needle.charAt(j) == haystack.charAt(i)) {
-                    i++;
-                    j++;
-                    lengthMatched ++;
-                    if (lengthMatched == needle.length()) {
-                        return startIdx;
-                    }
-                } else {
-                    lengthMatched = 0;
-                    i = startIdx + 1;
-                    startIdx += 1;
-                    j = 0;
-                    break;
-                }
+            if (j == -1 || haystack.charAt(i) == needle.charAt(j)) {
+                i++;
+                j++;
+            } else {
+                j = next[j];
             }
         }
-        return -1;
+        if (j == needle.length())
+            return i - j;
+        else
+            return -1;
     }
 
 }
