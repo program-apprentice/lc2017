@@ -7,7 +7,7 @@ X [021] Merge Two Sorted Lists                                        Easy   (39
 X [026] Remove Duplicates from Sorted Array                           Easy   (35.41 %)
 X [028] Implement strStr()                                            Easy   (28.37 %)
 X [038] Count and Say                                                 Easy   (35.22 %)
-- [053] Maximum Subarray                                              Easy   (39.75 %)
+X [053] Maximum Subarray                                              Easy   (39.75 %) (Another solution is devide conquer)
 X [066] Plus One                                                      Easy   (38.86 %)
 X [067] Add Binary                                                    Easy   (32.87 %)
 - [069] Sqrt(x)                                                       Easy   (28.00 %)
