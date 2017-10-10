@@ -8,7 +8,7 @@ X [026] Remove Duplicates from Sorted Array                           Easy   (35
 X [028] Implement strStr()                                            Easy   (28.37 %)
 X [038] Count and Say                                                 Easy   (35.22 %)
 - [053] Maximum Subarray                                              Easy   (39.75 %)
-- [066] Plus One                                                      Easy   (38.86 %)
+X [066] Plus One                                                      Easy   (38.86 %)
 - [067] Add Binary                                                    Easy   (32.87 %)
 - [069] Sqrt(x)                                                       Easy   (28.00 %)
 - [070] Climbing Stairs                                               Easy   (40.26 %)
