@@ -21,7 +21,7 @@ X [118] Pascal's Triangle                                             Easy   (38
 X [119] Pascal's Triangle II                                          Easy   (37.20 %)
 [121] Best Time to Buy and Sell Stock                               Easy   (41.65 %)
 [122] Best Time to Buy and Sell Stock II                            Easy   (47.31 %)
-[125] Valid Palindrome                                              Easy   (26.43 %)
+X [125] Valid Palindrome                                              Easy   (26.43 %)
 [136] Single Number                                                 Easy   (54.74 %)
 [141] Linked List Cycle                                             Easy   (35.33 %)
 [155] Min Stack                                                     Easy   (29.20 %)
