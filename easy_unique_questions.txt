@@ -13,7 +13,7 @@ X [067] Add Binary                                                    Easy   (32
 X [069] Sqrt(x)                                                       Easy   (28.00 %)
 X [070] Climbing Stairs                                               Easy   (40.26 %)
 X [088] Merge Sorted Array                                            Easy   (32.08 %)
-- [101] Symmetric Tree                                                Easy   (39.14 %)
+X [101] Symmetric Tree                                                Easy   (39.14 %)
 - [104] Maximum Depth of Binary Tree                                  Easy   (53.04 %)
 - [108] Convert Sorted Array to Binary Search Tree                    Easy   (42.47 %)
 - [110] Balanced Binary Tree                                          Easy   (37.70 %)

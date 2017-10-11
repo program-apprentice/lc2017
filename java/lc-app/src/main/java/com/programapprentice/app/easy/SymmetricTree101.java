@@ -30,7 +30,25 @@ public class SymmetricTree101 {
      Bonus points if you could solve it both recursively and iteratively.
      */
 
-    public boolean isSymmetric(TreeNode root) {
+    public boolean isSameOrSymmetric(TreeNode leftNode, TreeNode rightNode) {
+        if(leftNode == null && rightNode == null) {
+            return true;
+        }
+        if(leftNode == null || rightNode == null) {
+            return false;
+        }
 
+        if(leftNode.val != rightNode.val) {
+            return false;
+        }
+        return isSameOrSymmetric(leftNode.left, rightNode.right)
+                && isSameOrSymmetric(leftNode.right, rightNode.left);
+    }
+
+    public boolean isSymmetric(TreeNode root) {
+        if(root == null) {
+            return true;
+        }
+        return isSameOrSymmetric(root.left, root.right);
     }
 }
