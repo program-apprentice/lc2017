@@ -25,7 +25,7 @@ X [125] Valid Palindrome                                              Easy   (26
 X [136] Single Number                                                 Easy   (54.74 %)
 X [141] Linked List Cycle                                             Easy   (35.33 %)
 X [155] Min Stack                                                     Easy   (29.20 %)
-- [160] Intersection of Two Linked Lists                              Easy   (30.68 %)
+X [160] Intersection of Two Linked Lists                              Easy   (30.68 %)
 - [167] Two Sum II - Input array is sorted                            Easy   (47.12 %)
 - [168] Excel Sheet Column Title                                      Easy   (26.39 %)
 - [169] Majority Element                                              Easy   (46.97 %)
