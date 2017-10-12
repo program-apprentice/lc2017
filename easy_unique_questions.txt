@@ -30,7 +30,7 @@ X [167] Two Sum II - Input array is sorted                            Easy   (47
 X [168] Excel Sheet Column Title                                      Easy   (26.39 %)
 - [169] Majority Element                                              Easy   (46.97 %)
 - [170] Two Sum III - Data structure design                           Easy   (24.95 %)
-- [171] Excel Sheet Column Number                                     Easy   (47.51 %)
+X [171] Excel Sheet Column Number                                     Easy   (47.51 %)
 [172] Factorial Trailing Zeroes                                     Easy   (36.29 %)
 [189] Rotate Array                                                  Easy   (24.82 %)
 [190] Reverse Bits                                                  Easy   (29.51 %)
