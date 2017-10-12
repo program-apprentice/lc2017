@@ -27,7 +27,7 @@ X [141] Linked List Cycle                                             Easy   (35
 X [155] Min Stack                                                     Easy   (29.20 %)
 X [160] Intersection of Two Linked Lists                              Easy   (30.68 %)
 X [167] Two Sum II - Input array is sorted                            Easy   (47.12 %)
-- [168] Excel Sheet Column Title                                      Easy   (26.39 %)
+X [168] Excel Sheet Column Title                                      Easy   (26.39 %)
 - [169] Majority Element                                              Easy   (46.97 %)
 - [170] Two Sum III - Data structure design                           Easy   (24.95 %)
 - [171] Excel Sheet Column Number                                     Easy   (47.51 %)
