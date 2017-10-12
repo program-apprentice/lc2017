@@ -23,7 +23,7 @@ X [121] Best Time to Buy and Sell Stock                               Easy   (41
 X [122] Best Time to Buy and Sell Stock II                            Easy   (47.31 %)
 X [125] Valid Palindrome                                              Easy   (26.43 %)
 X [136] Single Number                                                 Easy   (54.74 %)
-- [141] Linked List Cycle                                             Easy   (35.33 %)
+X [141] Linked List Cycle                                             Easy   (35.33 %)
 - [155] Min Stack                                                     Easy   (29.20 %)
 [160] Intersection of Two Linked Lists                              Easy   (30.68 %)
 [167] Two Sum II - Input array is sorted                            Easy   (47.12 %)
