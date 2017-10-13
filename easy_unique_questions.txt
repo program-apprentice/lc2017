@@ -31,7 +31,7 @@ X [168] Excel Sheet Column Title                                      Easy   (26
 X [169] Majority Element                                              Easy   (46.97 %)
 X [170] Two Sum III - Data structure design                           Easy   (24.95 %)
 X [171] Excel Sheet Column Number                                     Easy   (47.51 %)
-- [172] Factorial Trailing Zeroes                                     Easy   (36.29 %)
+X [172] Factorial Trailing Zeroes                                     Easy   (36.29 %)
 - [189] Rotate Array                                                  Easy   (24.82 %)
 - [190] Reverse Bits                                                  Easy   (29.51 %)
 - [191] Number of 1 Bits                                              Easy   (39.79 %)
