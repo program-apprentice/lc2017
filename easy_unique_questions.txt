@@ -35,7 +35,7 @@ X [172] Factorial Trailing Zeroes                                     Easy   (36
 X [189] Rotate Array                                                  Easy   (24.82 %)
 X [190] Reverse Bits                                                  Easy   (29.51 %)
 X [191] Number of 1 Bits                                              Easy   (39.79 %)
-- [198] House Robber                                                  Easy   (39.19 %)
+X [198] House Robber                                                  Easy   (39.19 %)
 - [202] Happy Number                                                  Easy   (40.87 %)
 [204] Count Primes                                                  Easy   (26.64 %)
 [205] Isomorphic Strings                                            Easy   (34.04 %)
