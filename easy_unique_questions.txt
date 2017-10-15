@@ -43,7 +43,7 @@ X [206] Reverse Linked List                                           Easy   (45
 X [217] Contains Duplicate                                            Easy   (46.04 %)
 X [226] Invert Binary Tree                                            Easy   (52.20 %)
 X [231] Power of Two                                                  Easy   (40.29 %)
-- [234] Palindrome Linked List                                        Easy   (32.98 %)
+X [234] Palindrome Linked List                                        Easy   (32.98 %)
 - [235] Lowest Common Ancestor of a Binary Search Tree                Easy   (39.27 %)
 - [237] Delete Node in a Linked List                                  Easy   (46.79 %)
 - [242] Valid Anagram                                                 Easy   (46.68 %)
