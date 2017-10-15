@@ -40,7 +40,7 @@ X [202] Happy Number                                                  Easy   (40
 X [204] Count Primes                                                  Easy   (26.64 %)
 X [205] Isomorphic Strings                                            Easy   (34.04 %)
 X [206] Reverse Linked List                                           Easy   (45.87 %)
-- [217] Contains Duplicate                                            Easy   (46.04 %)
+X [217] Contains Duplicate                                            Easy   (46.04 %)
 - [226] Invert Binary Tree                                            Easy   (52.20 %)
 - [231] Power of Two                                                  Easy   (40.29 %)
 - [234] Palindrome Linked List                                        Easy   (32.98 %)
