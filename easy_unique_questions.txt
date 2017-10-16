@@ -47,7 +47,7 @@ X [234] Palindrome Linked List                                        Easy   (32
 X [235] Lowest Common Ancestor of a Binary Search Tree                Easy   (39.27 %)
 X [237] Delete Node in a Linked List                                  Easy   (46.79 %)
 X [242] Valid Anagram                                                 Easy   (46.68 %)
-- [243] Shortest Word Distance                                        Easy   (52.70 %)
+X [243] Shortest Word Distance                                        Easy   (52.70 %)
 - [256] Paint House                                                   Easy   (46.18 %)
 [268] Missing Number                                                Easy   (44.28 %)
 [278] First Bad Version                                             Easy   (25.57 %)
