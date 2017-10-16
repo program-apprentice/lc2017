@@ -9,7 +9,7 @@ X [069] Sqrt(x)                                                      Easy   (28.
 X [088] Merge Sorted Array                                           Easy   (32.10 %)
 X [121] Best Time to Buy and Sell Stock                              Easy   (41.70 %)
 X [125] Valid Palindrome                                             Easy   (26.50 %)
-- [157] Read N Characters Given Read4                                Easy   (29.00 %)
+X [157] Read N Characters Given Read4                                Easy   (29.00 %)
 X [168] Excel Sheet Column Title                                     Easy   (26.50 %)
 X [206] Reverse Linked List                                          Easy   (45.90 %)
 X [234] Palindrome Linked List                                       Easy   (33.00 %)
