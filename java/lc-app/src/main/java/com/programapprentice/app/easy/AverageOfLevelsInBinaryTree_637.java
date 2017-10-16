@@ -3,11 +3,9 @@ package com.programapprentice.app.easy;
 import com.programapprentice.app.model.TreeNode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
-public class AvarageOfLevelsInBinaryTree_637 {
+public class AverageOfLevelsInBinaryTree_637 {
     /**
      [637] Average of Levels in Binary Tree
 
