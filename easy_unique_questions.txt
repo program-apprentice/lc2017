@@ -44,7 +44,7 @@ X [217] Contains Duplicate                                            Easy   (46
 X [226] Invert Binary Tree                                            Easy   (52.20 %)
 X [231] Power of Two                                                  Easy   (40.29 %)
 X [234] Palindrome Linked List                                        Easy   (32.98 %)
-- [235] Lowest Common Ancestor of a Binary Search Tree                Easy   (39.27 %)
+X [235] Lowest Common Ancestor of a Binary Search Tree                Easy   (39.27 %)
 - [237] Delete Node in a Linked List                                  Easy   (46.79 %)
 - [242] Valid Anagram                                                 Easy   (46.68 %)
 - [243] Shortest Word Distance                                        Easy   (52.70 %)

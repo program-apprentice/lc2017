@@ -28,11 +28,10 @@ public class LowestComonAncestorOfABinarySearchTree_235 {
         List<TreeNode> ancestors = new ArrayList<TreeNode>();
         TreeNode r = root;
         while(r != null) {
+            ancestors.add(r);
             if (p.val > r.val) {
-                ancestors.add(r);
                 r = r.right;
             } else if (p.val < r.val) {
-                ancestors.add(r);
                 r = r.left;
             } else {
                 return ancestors;
@@ -52,6 +51,9 @@ public class LowestComonAncestorOfABinarySearchTree_235 {
             if (pa.val != qa.val) {
                 return pAncestors.get(i-1);
             }
+        }
+        if (len == 0) {
+            return root;
         }
         return pAncestors.get(len-1);
     }
