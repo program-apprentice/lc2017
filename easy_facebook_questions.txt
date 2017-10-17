@@ -20,7 +20,7 @@ X [278] First Bad Version                                            Easy   (25.
 X [283] Move Zeroes                                                  Easy   (50.40 %)
 X [404] Sum of Left Leaves                                           Easy   (47.20 %)
 X [461] Hamming Distance                                             Easy   (70.00 %)
-- [543] Diameter of Binary Tree                                      Easy   (44.40 %)
+X [543] Diameter of Binary Tree                                      Easy   (44.40 %)
 - [572] Subtree of Another Tree                                      Easy   (40.80 %)
 [597] Friend Requests I: Overall Acceptance Rate                   Easy   (35.90 %)
 [637] Average of Levels in Binary Tree                             Easy   (55.80 %)
