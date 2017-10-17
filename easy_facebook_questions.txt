@@ -16,7 +16,7 @@ X [234] Palindrome Linked List                                       Easy   (33.
 X [235] Lowest Common Ancestor of a Binary Search Tree               Easy   (39.30 %)
 X [252] Meeting Rooms                                                Easy   (48.00 %)
 X [257] Binary Tree Paths                                            Easy   (39.30 %)
-- [278] First Bad Version                                            Easy   (25.60 %)
+X [278] First Bad Version                                            Easy   (25.60 %)
 - [283] Move Zeroes                                                  Easy   (50.40 %)
 - [404] Sum of Left Leaves                                           Easy   (47.20 %)
 - [461] Hamming Distance                                             Easy   (70.00 %)
