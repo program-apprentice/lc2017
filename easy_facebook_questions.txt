@@ -24,6 +24,6 @@ X [543] Diameter of Binary Tree                                      Easy   (44.
 X [572] Subtree of Another Tree                                      Easy   (40.80 %)
 - [597] Friend Requests I: Overall Acceptance Rate                   Easy   (35.90 %)
 X [637] Average of Levels in Binary Tree                             Easy   (55.80 %)
-- [653] Two Sum IV - Input is a BST                                  Easy   (50.70 %)
-- [674] Longest Continuous Increasing Subsequence                    Easy   (43.00 %)
+X [653] Two Sum IV - Input is a BST                                  Easy   (50.70 %)
+X [674] Longest Continuous Increasing Subsequence                    Easy   (43.00 %)
 - [680] Valid Palindrome II                                          Easy   (31.80 %)
