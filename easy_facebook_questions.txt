@@ -26,4 +26,4 @@ X [572] Subtree of Another Tree                                      Easy   (40.
 X [637] Average of Levels in Binary Tree                             Easy   (55.80 %)
 X [653] Two Sum IV - Input is a BST                                  Easy   (50.70 %)
 X [674] Longest Continuous Increasing Subsequence                    Easy   (43.00 %)
-- [680] Valid Palindrome II                                          Easy   (31.80 %)
+X [680] Valid Palindrome II                                          Easy   (31.80 %)
