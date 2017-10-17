@@ -35,27 +35,43 @@ public class ValidPalindromeII_680 {
         }
 
         char[] cs = s.toCharArray();
-        for (int i = 0; i < cs.length; i++ ) {
-            int beg = 0;
-            int end = cs.length-1;
-            while(beg < end) {
-                if (beg == i) {
-                    beg ++;
-                    continue;
-                }
-                if (end == i) {
-                    end --;
-                    continue;
-                }
-                if (cs[beg] != cs[end]) {
+        boolean skipped = false;
+        int beg = 0;
+        int end = cs.length-1;
+        while(beg < end) {
+            if (cs[beg] != cs[end]) {
+                if (skipped) {
                     break;
                 }
+                skipped = true;
                 beg++;
+                continue;
+            }
+            beg++;
+            end--;
+        }
+        if(beg >= end) {
+            return true;
+        }
+
+        beg = 0;
+        end = cs.length-1;
+        skipped = false;
+        while(beg < end) {
+            if (cs[beg] != cs[end]) {
+                if (skipped) {
+                    return false;
+                }
+                skipped = true;
                 end--;
+                continue;
             }
-            if(beg >= end) {
-                return true;
-            }
+            beg++;
+            end--;
+        }
+
+        if(beg >= end) {
+            return true;
         }
         return false;
     }

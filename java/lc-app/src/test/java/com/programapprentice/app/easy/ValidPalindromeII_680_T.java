@@ -10,6 +10,6 @@ public class ValidPalindromeII_680_T {
     public void test1() {
         String s = "deeee";
         boolean result = solution.validPalindrome(s);
-        Assert.assertEquals(false, result);
+        Assert.assertEquals(true, result);
     }
 }
