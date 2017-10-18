@@ -1,5 +1,5 @@
 X [015] 3Sum                                                         Medium (21.80 %)
-[017] Letter Combinations of a Phone Number                        Medium (35.10 %)
+X [017] Letter Combinations of a Phone Number                        Medium (35.10 %)
 [033] Search in Rotated Sorted Array                               Medium (32.00 %)
 [043] Multiply Strings                                             Medium (27.40 %)
 [049] Group Anagrams                                               Medium (35.80 %)
