@@ -4,7 +4,7 @@ X [017] Letter Combinations of a Phone Number                        Medium (35.
 X [043] Multiply Strings                                             Medium (27.40 %)
 X [049] Group Anagrams                                               Medium (35.80 %)
 X [050] Pow(x, n)                                                    Medium (26.10 %)
-- [056] Merge Intervals                                              Medium (30.70 %)
+X [056] Merge Intervals                                              Medium (30.70 %)
 - [071] Simplify Path                                                Medium (25.70 %)
 [075] Sort Colors                                                  Medium (38.20 %)
 [078] Subsets                                                      Medium (41.80 %)
