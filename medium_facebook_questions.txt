@@ -12,7 +12,7 @@ X [078] Subsets                                                      Medium (41.
 X [080] Remove Duplicates from Sorted Array II                       Medium (36.30 %)
 X [090] Subsets II                                                   Medium (36.80 %)
 X [091] Decode Ways                                                  Medium (19.90 %)
-- [098] Validate Binary Search Tree                                  Medium (23.60 %)
+X [098] Validate Binary Search Tree                                  Medium (23.60 %)
 - [102] Binary Tree Level Order Traversal                            Medium (40.50 %)
 [117] Populating Next Right Pointers in Each Node II               Medium (33.80 %)
 [127] Word Ladder                                                  Medium (19.50 %)
