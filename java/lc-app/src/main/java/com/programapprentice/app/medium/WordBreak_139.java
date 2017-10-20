@@ -26,45 +26,27 @@ public class WordBreak_139 {
      Please reload the code definition to get the latest changes.
      * */
 
-    public List<Integer> findNextTrue(boolean[] rec, int startIdx) {
-        List<Integer> res = new ArrayList<Integer>();
-        for(int i = startIdx+1; i < rec.length; i++) {
-            if(rec[i]) {
-                res.add(i);
-            }
-        }
-        return res;
-    }
-
     public boolean wordBreak(String s, List<String> wordDict) {
-        if (s == null) {
+        if (s == null || s.length() == 0) {
             return false;
         }
         Set<String> dict = new HashSet<String>();
         for(String str : wordDict) {
             dict.add(str);
         }
-        int n = s.length();
-        boolean[][] rec = new boolean[n][n];
-        for(int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
-                if (dict.contains(s.substring(i, j+1))) {
-                    rec[i][j] = true;
+        boolean[] opts = new boolean[s.length()+1];
+        opts[0] = true;
+        for(int i = 1; i <= s.length(); i++) {
+            for(int j = i-1; j >= 0; j--) {
+                if (dict.contains(s.substring(j, i))) {
+                    if (opts[j]) {
+                        opts[i] = true;
+                        break;
+                    }
                 }
             }
         }
-        List<Integer> nextTrues = findNextTrue(rec[0], -1);
-        while(!nextTrues.isEmpty()) {
-            List<Integer> futureTrues = new ArrayList<Integer>();
-            for(Integer trueIdx : nextTrues) {
-                if (trueIdx == s.length()-1) {
-                    return true;
-                }
-                futureTrues.addAll(findNextTrue(rec[trueIdx+1], trueIdx));
-            }
-            nextTrues = futureTrues;
-        }
-        return false;
+        return opts[s.length()];
     }
 
 }
