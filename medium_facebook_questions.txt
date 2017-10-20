@@ -15,7 +15,7 @@ X [091] Decode Ways                                                  Medium (19.
 X [098] Validate Binary Search Tree                                  Medium (23.60 %)
 X [102] Binary Tree Level Order Traversal                            Medium (40.50 %)
 X [117] Populating Next Right Pointers in Each Node II               Medium (33.80 %)
-- [127] Word Ladder                                                  Medium (19.50 %)
+X [127] Word Ladder                                                  Medium (19.50 %)
 - [133] Clone Graph                                                  Medium (25.10 %)
 - [139] Word Break                                                   Medium (30.40 %)
 [161] One Edit Distance                                            Medium (31.50 %)

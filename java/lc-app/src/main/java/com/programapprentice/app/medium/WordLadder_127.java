@@ -95,6 +95,11 @@ public class WordLadder_127 {
                     Record newRecord = new Record(newHistory, nextCandidate);
                     newRecords.add(newRecord);
                 }
+                /////// The key for efficiency
+                for(String nextCandidate : nextCandidates) {
+                    dict.remove(nextCandidate);
+                }
+                /////// The key for efficiency
             }
             records = newRecords;
         }
