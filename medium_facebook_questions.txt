@@ -18,7 +18,7 @@ X [117] Populating Next Right Pointers in Each Node II               Medium (33.
 X [127] Word Ladder                                                  Medium (19.50 %)
 X [133] Clone Graph                                                  Medium (25.10 %)
 X [139] Word Break                                                   Medium (30.40 %)
-- [161] One Edit Distance                                            Medium (31.50 %)
+X [161] One Edit Distance                                            Medium (31.50 %)
 - [173] Binary Search Tree Iterator                                  Medium (42.00 %)
 - [200] Number of Islands                                            Medium (35.20 %)
 - [208] Implement Trie (Prefix Tree)                                 Medium (29.00 %)
