@@ -21,7 +21,7 @@ X [139] Word Break                                                   Medium (30.
 X [161] One Edit Distance                                            Medium (31.50 %)
 X [173] Binary Search Tree Iterator                                  Medium (42.00 %)
 X [200] Number of Islands                                            Medium (35.20 %)
-- [208] Implement Trie (Prefix Tree)                                 Medium (29.00 %)
+X [208] Implement Trie (Prefix Tree)                                 Medium (29.00 %)
 [209] Minimum Size Subarray Sum                                    Medium (31.20 %)
 [210] Course Schedule II                                           Medium (28.70 %)
 [211] Add and Search Word - Data structure design                  Medium (23.60 %)
