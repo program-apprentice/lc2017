@@ -50,7 +50,7 @@ X [275] H-Index II                                                   Medium (34.
 [525] Contiguous Array                                             Medium (40.40 %)
 [534] Design TinyURL                                               Medium (00.00 %)
 [535] Encode and Decode TinyURL                                    Medium (74.30 %)
-[554] Brick Wall                                                   Medium (45.70 %)
+- [554] Brick Wall                                                   Medium (45.70 %)
 [578] Get Highest Answer Rate Question                             Medium (28.10 %)
 [602] Friend Requests II: Who Has the Most Friends                 Medium (42.00 %)
 [621] Task Scheduler                                               Medium (42.20 %)
