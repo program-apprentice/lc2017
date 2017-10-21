@@ -23,26 +23,22 @@ public class HIndex_274 {
      * */
 
     public int hIndex(int[] citations) {
-        if (citations == null || citations.length == 0) {
-            return 0;
-        }
-        if (citations.length == 1) {
-            if (citations[0] == 0) {
-                return 0;
-            } else {
-                return 1;
-            }
-        }
-
-        Arrays.sort(citations);
+        int[] stats = new int[citations.length + 1];
         int n = citations.length;
-        for(int i = 0; i < n; i++) {
-            int numOfPapers = n - i;
-            if (citations[i] > numOfPapers) {
-                return numOfPapers;
+        // 统计各个引用次数对应多少篇文章
+        for(int i = 0; i < n; i++){
+            stats[citations[i] <= n ? citations[i] : n] += 1;
+        }
+        int sum = 0;
+        // 找出最大的H指数
+        for(int i = n; i > 0; i--){
+            // 引用大于等于i次的文章数量，等于引用大于等于i+1次的文章数量，加上引用等于i次的文章数量
+            sum += stats[i];
+            // 如果引用大于等于i次的文章数量，大于引用次数i，说明是H指数
+            if(sum >= i){
+                return i;
             }
         }
-
         return 0;
     }
 
