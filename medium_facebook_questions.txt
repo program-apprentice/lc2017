@@ -33,7 +33,7 @@ X [253] Meeting Rooms II                                             Medium (39.
 - [261] Graph Valid Tree                                             Medium (38.00 %)
 X [274] H-Index                                                      Medium (33.40 %)
 X [275] H-Index II                                                   Medium (34.60 %)
-- [277] Find the Celebrity                                           Medium (35.60 %)
+X [277] Find the Celebrity                                           Medium (35.60 %)
 - [285] Inorder Successor in BST                                     Medium (36.20 %)
 - [286] Walls and Gates                                              Medium (44.60 %)
 = [311] Sparse Matrix Multiplication                                 Medium (51.30 %)
