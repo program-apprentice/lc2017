@@ -57,4 +57,4 @@ X [554] Brick Wall                                                   Medium (45.
 & [636] Exclusive Time of Functions                                  Medium (42.90 %)
 & [647] Palindromic Substrings                                       Medium (55.80 %)
 & [670] Maximum Swap                                                 Medium (38.20 %)
-% [673] Number of Longest Increasing Subsequence                     Medium (31.00 %)
+X [673] Number of Longest Increasing Subsequence                     Medium (31.00 %)
