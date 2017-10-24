@@ -35,7 +35,7 @@ X [274] H-Index                                                      Medium (33.
 X [275] H-Index II                                                   Medium (34.60 %)
 X [277] Find the Celebrity                                           Medium (35.60 %)
 X [285] Inorder Successor in BST                                     Medium (36.20 %)
-- [286] Walls and Gates                                              Medium (44.60 %)
+X [286] Walls and Gates                                              Medium (44.60 %)
 = [311] Sparse Matrix Multiplication                                 Medium (51.30 %)
 = [314] Binary Tree Vertical Order Traversal                         Medium (37.10 %)
 = [325] Maximum Size Subarray Sum Equals k                           Medium (42.80 %)
