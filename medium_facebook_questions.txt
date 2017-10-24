@@ -30,7 +30,7 @@ X [221] Maximal Square                                               Medium (29.
 X [236] Lowest Common Ancestor of a Binary Tree                      Medium (29.90 %)
 X [238] Product of Array Except Self                                 Medium (49.50 %)
 X [253] Meeting Rooms II                                             Medium (39.10 %)
-- [261] Graph Valid Tree                                             Medium (38.00 %)
+X [261] Graph Valid Tree                                             Medium (38.00 %)
 X [274] H-Index                                                      Medium (33.40 %)
 X [275] H-Index II                                                   Medium (34.60 %)
 X [277] Find the Celebrity                                           Medium (35.60 %)
