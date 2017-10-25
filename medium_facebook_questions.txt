@@ -40,7 +40,7 @@ X [311] Sparse Matrix Multiplication                                 Medium (51.
 X [314] Binary Tree Vertical Order Traversal                         Medium (37.10 %)
 X [325] Maximum Size Subarray Sum Equals k                           Medium (42.80 %)
 ** X [334] Increasing Triplet Subsequence                               Medium (39.60 %）
-- [341] Flatten Nested List Iterator                                 Medium (42.00 %)
+X [341] Flatten Nested List Iterator                                 Medium (42.00 %)
 - [377] Combination Sum IV                                           Medium (42.20 %)
 &[380] Insert Delete GetRandom O(1                                  Medium (39.30 %)
 &[398] Random Pick Index                                            Medium (43.60 %)
