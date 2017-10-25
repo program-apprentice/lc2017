@@ -34,25 +34,16 @@ public class CombinationSumIV_377 {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        Arrays.sort(nums);
-        return combinationSum4Sorted(nums, target);
-    }
-
-    public int combinationSum4Sorted(int[] nums, int target) {
-        if (nums == null || nums.length == 0 || target <= 0) {
-            return 0;
-        }
-
-        int count = 0;
-        for(int i = 0; i < nums.length; i++) {
-            if (target == nums[i]) {
-                count += 1;
-            } else if (target < nums[i]) {
-                break;
-            } else {
-                count += combinationSum4Sorted(nums, target - nums[i]);
+        int[] opts = new int[target+1];
+        opts[0] = 1;
+        for(int i = 1; i <= target; i++) {
+            for(int num : nums) {
+                if (num <= i) {
+                    opts[i] += opts[i-num];
+                }
             }
         }
-        return count;
+        return opts[target];
     }
+
 }
