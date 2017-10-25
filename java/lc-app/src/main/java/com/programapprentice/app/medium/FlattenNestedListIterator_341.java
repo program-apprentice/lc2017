@@ -5,38 +5,38 @@ import com.programapprentice.app.model.NestedInteger;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Stack;
 
 public class FlattenNestedListIterator_341 {
     class NestedIterator implements Iterator<Integer> {
-        List<Integer> data = new ArrayList<Integer>();
-        int pointer = 0;
-
-        List<Integer> visit(NestedInteger item) {
-            List<Integer> result = new ArrayList<Integer>();
-            if (item.isInteger()) {
-                result.add(item.getInteger());
-                return result;
-            }
-            for(NestedInteger child : item.getList()) {
-                result.addAll(visit(child));
-            }
-            return result;
-        }
+        Stack<NestedInteger> stack = new Stack<NestedInteger>();
 
         public NestedIterator(List<NestedInteger> nestedList) {
-            for(NestedInteger item : nestedList) {
-                this.data.addAll(visit(item));
+            if (nestedList == null || nestedList.isEmpty()) {
+                return;
+            }
+            for(int i = nestedList.size()-1; i >= 0; i--) {
+                stack.push(nestedList.get(i));
             }
         }
 
         @Override
         public Integer next() {
-            return data.get(pointer++);
+            return stack.pop().getInteger();
         }
 
         @Override
         public boolean hasNext() {
-            return pointer <= data.size()-1;
+            while(!stack.isEmpty()) {
+                if (stack.peek().isInteger()) {
+                    return true;
+                }
+                NestedInteger curt = stack.pop();
+                for(int i = curt.getList().size()-1; i>= 0; i--) {
+                    stack.push(curt.getList().get(i));
+                }
+            }
+            return false;
         }
     }
 }
