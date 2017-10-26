@@ -43,7 +43,7 @@ X [325] Maximum Size Subarray Sum Equals k                           Medium (42.
 X [341] Flatten Nested List Iterator                                 Medium (42.00 %)
 X [377] Combination Sum IV                                           Medium (42.20 %)
 X [380] Insert Delete GetRandom O(1)                                 Medium (39.30 %)
-- [398] Random Pick Index                                            Medium (43.60 %)
+X [398] Random Pick Index                                            Medium (43.60 %)
 - [477] Total Hamming Distance                                       Medium (47.40 %)
 +[494] Target Sum                                                   Medium (43.40 %)
 +[523] Continuous Subarray Sum                                      Medium (23.10 %)
