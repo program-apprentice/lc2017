@@ -20,12 +20,11 @@ public class FlattenNestedListIterator_341 {
             }
         }
 
-        @Override
+
         public Integer next() {
             return stack.pop().getInteger();
         }
 
-        @Override
         public boolean hasNext() {
             while(!stack.isEmpty()) {
                 if (stack.peek().isInteger()) {
@@ -37,6 +36,9 @@ public class FlattenNestedListIterator_341 {
                 }
             }
             return false;
+        }
+
+        public void remove() {
         }
     }
 }
