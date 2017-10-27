@@ -25,9 +25,6 @@ public class ContinuousSubarraySum_523 {
         if (nums == null || nums.length <= 1) {
             return false;
         }
-        if (nums.length == 2) {
-            return ((nums[0] + nums[1]) % k) == 0;
-        }
         int n = nums.length;
         if (0 == k) {
             for(int i = 1; i < n; i++) {
@@ -37,14 +34,20 @@ public class ContinuousSubarraySum_523 {
             }
             return false;
         }
-        int[] remainnings = new int[n];
+        if (nums.length == 2) {
+            return ((nums[0] + nums[1]) % k) == 0;
+        }
         HashMap<Integer, Integer> remainingToIdxMap = new HashMap<Integer, Integer>();
         int count = 0;
         for(int i = 0; i < n; i++) {
             count += nums[i];
             count = count % k;
             if (i == 0) {
+                remainingToIdxMap.put(count, i);
                 continue;
+            }
+            if (count == 0) {
+                return true;
             }
             if (remainingToIdxMap.containsKey(count)) {
                 int idx = remainingToIdxMap.get(count);
