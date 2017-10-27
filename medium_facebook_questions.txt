@@ -45,7 +45,7 @@ X [377] Combination Sum IV                                           Medium (42.
 X [380] Insert Delete GetRandom O(1)                                 Medium (39.30 %)
 X [398] Random Pick Index                                            Medium (43.60 %)
 X [477] Total Hamming Distance                                       Medium (47.40 %)
-- [494] Target Sum                                                   Medium (43.40 %)
+X [494] Target Sum                                                   Medium (43.40 %)
 - [523] Continuous Subarray Sum                                      Medium (23.10 %)
 - [525] Contiguous Array                                             Medium (40.40 %)
 ~[534] Design TinyURL                                               Medium (00.00 %)
