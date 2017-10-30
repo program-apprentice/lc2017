@@ -1,7 +1,5 @@
 package com.programapprentice.app.medium;
 
-import java.util.HashMap;
-
 public class ContiguousArray_525 {
     /**
      Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
@@ -18,23 +16,19 @@ public class ContiguousArray_525 {
      * */
 
     public int findMaxLength(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        int n = nums.length;
-        int[] diff = new int[n+1];
-        map.put(0, 0);
-        int res = 0;
-        for(int i = 1; i <= n; i++) {
-            diff[i] = diff[i-1] + (nums[i-1] == 0 ? -1 : 1);
-            if(!map.containsKey(diff[i]))
-                map.put(diff[i], i);
-            else {
-                res = Math.max(res, i-map.get(diff[i]));
+        int len = nums.length;
+        if (len < 2) return 0;
+        int[] numsMap = new int[2 * len + 1];
+        int result = 0, sum = len;
+        for (int i = 0; i < len; i++) {
+            sum += nums[i] == 0 ? -1 : 1;
+            if (sum == len) {
+                result = i + 1;
+                continue;
             }
+            if (numsMap[sum] == 0) numsMap[sum] = i + 1;
+            else result = Math.max(result, i - numsMap[sum] + 1);
         }
-        return res;
-
+        return result;
     }
 }
