@@ -55,6 +55,6 @@ X [554] Brick Wall                                                   Medium (45.
 - [602] Friend Requests II: Who Has the Most Friends                 Medium (42.00 %)
 X [621] Task Scheduler                                               Medium (42.20 %)
 X [636] Exclusive Time of Functions                                  Medium (42.90 %)
-- [647] Palindromic Substrings                                       Medium (55.80 %)
+X [647] Palindromic Substrings                                       Medium (55.80 %)
 X [670] Maximum Swap                                                 Medium (38.20 %)
 X [673] Number of Longest Increasing Subsequence                     Medium (31.00 %)
