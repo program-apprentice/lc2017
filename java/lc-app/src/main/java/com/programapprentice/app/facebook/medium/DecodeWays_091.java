@@ -31,7 +31,7 @@ public class DecodeWays_091 {
         return false;
     }
 
-    public int numDecodings(String s) {
+    public int numDecodingsv1(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
@@ -77,4 +77,18 @@ public class DecodeWays_091 {
         return opts[s.length()-1];
     }
 
+    public int numDecodings(String s) {
+        if (s == null || s.length() == 0 || s.charAt(0) == '0') {
+            return 0;
+        }
+        int[] opts = new int[s.length()+1];
+        opts[0] = 1;
+        for(int i = 1; i <= s.length(); i++) {
+            opts[i] = s.charAt(i-1) == '0' ? 0 : opts[i-1];
+            if (i > 1 && (s.charAt(i-2) == '1' || (s.charAt(i-2) == '2' && s.charAt(i-1) <= '6'))) {
+                opts[i] += opts[i-2];
+            }
+        }
+        return opts[s.length()];
+    }
 }
