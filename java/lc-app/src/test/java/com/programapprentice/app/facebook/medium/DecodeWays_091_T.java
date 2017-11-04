@@ -40,4 +40,11 @@ public class DecodeWays_091_T {
         int actual = solutuion.numDecodings(input);
         Assert.assertEquals(1, actual);
     }
+
+    @Test
+    public void test6() {
+        String input = "20000121";
+        int actual = solutuion.numDecodings(input);
+        Assert.assertEquals(0, actual);
+    }
 }
