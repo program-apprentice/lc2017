@@ -2,75 +2,43 @@ package com.programapprentice.app.facebook.hard;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class ExpressionAddOperators_282 {
 
-    public int evaludateString(String str) {
-        Stack<Character> stack = new Stack<Character>();
+    /**
+     https://leetcode.com/problems/expression-add-operators/description/
 
-        int sum = 0;
-        for(Character c : str.toCharArray()) {
-            if (c == '*') {
-
-            } else if (c >= '0') {
-                if (stack.peek() == '*') {
-                    stack.pop();
-                    char pre = stack.pop();
-                    char res = (char)((pre - '0') * (c - '0') + '0');
-                    stack.push(res);
-                }
-            } else {
-                stack.push(c);
-            }
-
-        }
-
-        return 0;
-    }
+     Solution:
+     http://www.learn4master.com/interview-questions/leetcode/leetcode-expression-add-operators-java
+     * */
 
     public List<String> addOperators(String num, int target) {
         List<String> result = new ArrayList<String>();
-        List<String> candidates = new ArrayList<String>();
-        List<String> operators = new ArrayList<String>();
-        operators.add("+");
-        operators.add("-");
-        operators.add("*");
-
-        if (num.length() == 1) {
-            if (Integer.parseInt(num) == target) {
-                result.add(num);
-            }
-            return result;
-        }
-
-        for(int i = 0; i < num.length(); i++) {
-            List<String> newCandidates = new ArrayList<String>();
-            if (i == num.length()) {
-                for(String candidate : candidates) {
-                    newCandidates.add(candidate + num.charAt(i));
-                }
-                continue;
-            } else if (i == 0) {
-                for(String operator : operators) {
-                    newCandidates.add(new String(num.charAt(i) + operator));
-                }
-            } else {
-                for(String operator : operators) {
-                    for(String candidate : candidates) {
-                        newCandidates.add(candidate + num.charAt(i) + operator);
-                    }
-                }
-            }
-            candidates = newCandidates;
-        }
-
-        for (String candidate : candidates) {
-            if (evaludateString(candidate) == target) {
-                result.add(candidate);
-            }
-        }
-
+        solve(0, num.toCharArray(), "", 0, 0, target, result);
         return result;
+    }
+
+    void solve(int curIndex, char[] input, String curRes, long preSum, long preVal, int target, List<String> result) {
+        if (curIndex == input.length) {
+            if (preSum == target) {
+                result.add(curRes);
+            }
+            return;
+        }
+        long curVal = input[curIndex] - '0';
+        curVal = 0;
+        for(int i =curIndex; i < input.length; i++) {
+            curVal = curVal * 10 + (input[i] - '0');
+            if (i > curIndex && input[curIndex] == '0') {
+                return;
+            }
+            if (curIndex == 0) {
+                solve(i+1, input, curRes + curVal, curVal, curVal, target, result);
+            } else {
+                solve(i+1, input, curRes + "+" + curVal, preSum + curVal, curVal, target, result);
+                solve(i+1, input, curRes + "-" + curVal, preSum - curVal, 0 - curVal, target, result);
+                solve(i+1, input, curRes + "*" + curVal, preSum - preVal + preVal * curVal, preVal * curVal, target, result);
+            }
+        }
     }
 }
