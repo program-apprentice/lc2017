@@ -25,17 +25,19 @@ public class NondecreasingArray_665 {
         if (nums == null || nums.length <= 1) {
             return true;
         }
-        boolean hasDecreasingSequence = false;
-        int pre = nums[0];
-        for(int i = 1; i < nums.length; i++) {
-            int cur = nums[i];
-            if (cur < pre) {
-                if (hasDecreasingSequence) {
+        int count = 1;
+        int n = nums.length;
+        for(int i = 1; i < n; i++) {
+            if (nums[i] < nums[i-1]) {
+                if (count == 0)
                     return false;
+                if ((i == 1 || nums[i] >= nums[i-2])) {
+                    nums[i-1] = nums[i];
+                } else {
+                    nums[i] = nums[i-1];
                 }
-                hasDecreasingSequence = true;
+                count--;
             }
-            pre = cur;
         }
         return true;
     }
