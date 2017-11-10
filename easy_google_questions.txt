@@ -36,7 +36,7 @@
 [551] Student Attendance Record I                                  Easy   (44.00 %)
 [581] Shortest Unsorted Continuous Subarray                        Easy   (29.50 %)
 [604] Design Compressed String Iterator                            Easy   (32.40 %)
-[643] Maximum Average Subarray I                                   Easy   (37.70 %)
+X [643] Maximum Average Subarray I                                   Easy   (37.70 %)
 [657] Judge Route Circle                                           Easy   (68.50 %)
 X [665] Non-decreasing Array                                         Easy   (21.30 %)
 X [686] Repeated String Match                                        Easy   (30.40 %)
