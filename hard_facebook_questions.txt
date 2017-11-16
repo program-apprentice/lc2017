@@ -6,7 +6,7 @@
 - [068] Text Justification                                           Hard   (19.40 %)
 - [076] Minimum Window Substring                                     Hard   (25.80 %)
 - [085] Maximal Rectangle                                            Hard   (28.50 %)
-- [128] Longest Consecutive Sequence                                 Hard   (37.30 %)
+X [128] Longest Consecutive Sequence                                 Hard   (37.30 %)
 - [146] LRU Cache                                                    Hard   (18.40 %)
 X [158] Read N Characters Given Read4 II - Call multiple times       Hard   (24.40 %)
 *X [218] The Skyline Problem                                          Hard   (27.80 %)
