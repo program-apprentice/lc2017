@@ -17,31 +17,11 @@ public class MinimumWindowSubstring_076 {
 
      If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.
      * */
-    private int findNextStart(Map<Character, List<Integer>> map) {
-        int result = Integer.MAX_VALUE;
-        for(Character key : map.keySet()) {
-            for(Integer i : map.get(key)) {
-                result = Math.min(result, i);
-            }
-        }
-        return result;
-    }
-
-    public boolean isValid(Map<Character, List<Integer>> charToIndex, Map<Character, Integer> destination) {
-        for(Character c : destination.keySet()) {
-            if (charToIndex.get(c) == null) {
-                return false;
-            }
-            if (!destination.get(c).equals(charToIndex.get(c).size())) {
-                return false;
-            }
-        }
-        return true;
-    }
 
     public String minWindow(String s, String t) {
         Map<Character, List<Integer>> charToIndex = new HashMap<Character, List<Integer>>();
         Map<Character, Integer> destination = new HashMap<Character, Integer>();
+        PriorityQueue<Integer> indexHeap = new PriorityQueue<Integer>();
         for(Character c : t.toCharArray()) {
             int count = destination.get(c) == null ? 1 : destination.get(c) + 1;
             destination.put(c, count);
@@ -59,12 +39,16 @@ public class MinimumWindowSubstring_076 {
                     List<Integer> indexes = charToIndex.get(c);
                     int targetedCount = destination.get(c);
                     if (targetedCount == indexes.size()) {
+                        indexHeap.remove(indexes.get(0));
                         indexes.remove(0);
+                        counter--;
                     }
+                    counter++;
                     indexes.add(i);
+                    indexHeap.add(i);
                     charToIndex.put(c, indexes);
-                    if (isValid(charToIndex, destination)) {
-                        start = findNextStart(charToIndex);
+                    if (counter == t.length()) {
+                        start = indexHeap.peek();
                         if (end - start + 1 < minLength) {
                             result = s.substring(start, end + 1);
                             minLength = result.length();
@@ -74,8 +58,10 @@ public class MinimumWindowSubstring_076 {
                     List<Integer> indexes = new ArrayList<Integer>();
                     indexes.add(i);
                     charToIndex.put(c, indexes);
-                    if (isValid(charToIndex, destination)) {
-                        start = findNextStart(charToIndex);
+                    counter++;
+                    indexHeap.add(i);
+                    if (counter == t.length()) {
+                        start = indexHeap.peek();
                         result = s.substring(start, end+1);
                         minLength = result.length();
                     }
