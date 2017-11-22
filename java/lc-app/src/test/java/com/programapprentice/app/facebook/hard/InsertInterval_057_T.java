@@ -16,6 +16,7 @@ public class InsertInterval_057_T {
         intervals.add(new Interval(6, 9));
         Interval newInterval = new Interval(2, 5);
         List<Interval> newIntervals = solution.insert(intervals, newInterval);
+
     }
 
     @Test

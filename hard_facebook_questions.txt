@@ -1,6 +1,6 @@
 - [010] Regular Expression Matching                                  Hard   (24.20 %)
 - [023] Merge k Sorted Lists                                         Hard   (27.60 %)
-- [025] Reverse Nodes in k-Group                                     Hard   (31.00 %)
+X [025] Reverse Nodes in k-Group                                     Hard   (31.00 %)
 - [044] Wildcard Matching                                            Hard   (20.40 %)
 X [057] Insert Interval                                              Hard   (28.10 %)
 X [068] Text Justification                                           Hard   (19.40 %)
