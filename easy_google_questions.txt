@@ -27,7 +27,7 @@
 - [475] Heaters                                                      Easy   (29.60 %)
 - [485] Max Consecutive Ones                                         Easy   (54.00 %)
 - [501] Find Mode in Binary Search Tree                              Easy   (37.70 %)
-- [506] Relative Ranks                                               Easy   (46.50 %)
+X [506] Relative Ranks                                               Easy   (46.50 %)
 - [520] Detect Capital                                               Easy   (51.90 %)
 - [521] Longest Uncommon Subsequence I                               Easy   (55.70 %)
 - [530] Minimum Absolute Difference in BST                           Easy   (47.30 %)
