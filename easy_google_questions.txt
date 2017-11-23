@@ -31,7 +31,7 @@ X [506] Relative Ranks                                               Easy   (46.
 - [520] Detect Capital                                               Easy   (51.90 %)
 - [521] Longest Uncommon Subsequence I                               Easy   (55.70 %)
 - [530] Minimum Absolute Difference in BST                           Easy   (47.30 %)
-- [541] Reverse String II                                            Easy   (43.70 %)
+X [541] Reverse String II                                            Easy   (43.70 %)
 $ [543] Diameter of Binary Tree                                      Easy   (44.40 %)
 X [551] Student Attendance Record I                                  Easy   (44.00 %)
 X [581] Shortest Unsorted Continuous Subarray                        Easy   (29.50 %)
