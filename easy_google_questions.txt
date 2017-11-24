@@ -19,7 +19,7 @@
 - [408] Valid Word Abbreviation                                      Easy   (28.10 %)
 - [409] Longest Palindrome                                           Easy   (45.40 %)
 X [415] Add Strings                                                  Easy   (41.50 %)
-- [422] Valid Word Square                                            Easy   (36.30 %)
+X [422] Valid Word Square                                            Easy   (36.30 %)
 X [447] Number of Boomerangs                                         Easy   (45.40 %)
 X [448] Find All Numbers Disappeared in an Array                     Easy   (51.20 %)
 - [459] Repeated Substring Pattern                                   Easy   (38.10 %)
