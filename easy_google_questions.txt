@@ -17,7 +17,7 @@
 - [400] Nth Digit                                                    Easy   (30.00 %)
 X [401] Binary Watch                                                 Easy   (44.90 %)
 - [408] Valid Word Abbreviation                                      Easy   (28.10 %)
-- [409] Longest Palindrome                                           Easy   (45.40 %)
+X [409] Longest Palindrome                                           Easy   (45.40 %)
 X [415] Add Strings                                                  Easy   (41.50 %)
 X [422] Valid Word Square                                            Easy   (36.30 %)
 X [447] Number of Boomerangs                                         Easy   (45.40 %)
