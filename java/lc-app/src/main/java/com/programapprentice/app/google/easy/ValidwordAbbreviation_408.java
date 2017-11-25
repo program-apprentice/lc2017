@@ -21,6 +21,7 @@ public class ValidwordAbbreviation_408 {
      Given s = "apple", abbr = "a2e":
 
      Return false.
+     Solution: http://www.cnblogs.com/grandyang/p/5930369.html
      * */
     public boolean isLetter(char c) {
         return c >= 'a' && c <= 'z';
