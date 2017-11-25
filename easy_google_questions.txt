@@ -15,7 +15,7 @@
 - [374] Guess Number Higher or Lower                                 Easy   (35.70 %)
 - [389] Find the Difference                                          Easy   (50.80 %)
 - [400] Nth Digit                                                    Easy   (30.00 %)
-- [401] Binary Watch                                                 Easy   (44.90 %)
+X [401] Binary Watch                                                 Easy   (44.90 %)
 - [408] Valid Word Abbreviation                                      Easy   (28.10 %)
 - [409] Longest Palindrome                                           Easy   (45.40 %)
 X [415] Add Strings                                                  Easy   (41.50 %)
