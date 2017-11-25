@@ -12,7 +12,7 @@
 - [345] Reverse Vowels of a String                                   Easy   (38.60 %)
 - [346] Moving Average from Data Stream                              Easy   (59.10 %)
 - [359] Logger Rate Limiter                                          Easy   (59.90 %)
-- [374] Guess Number Higher or Lower                                 Easy   (35.70 %)
+X [374] Guess Number Higher or Lower                                 Easy   (35.70 %)
 X [389] Find the Difference                                          Easy   (50.80 %)
 X [400] Nth Digit                                                    Easy   (30.00 %)
 X [401] Binary Watch                                                 Easy   (44.90 %)
