@@ -24,7 +24,7 @@ X [447] Number of Boomerangs                                         Easy   (45.
 X [448] Find All Numbers Disappeared in an Array                     Easy   (51.20 %)
 X [459] Repeated Substring Pattern                                   Easy   (38.10 %)
 X [463] Island Perimeter                                             Easy   (57.30 %)
-- [475] Heaters                                                      Easy   (29.60 %)
+X [475] Heaters                                                      Easy   (29.60 %)
 X [485] Max Consecutive Ones                                         Easy   (54.00 %)
 X [501] Find Mode in Binary Search Tree                              Easy   (37.70 %)
 X [506] Relative Ranks                                               Easy   (46.50 %)
