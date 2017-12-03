@@ -1,7 +1,9 @@
 package com.programapprentice.app.google.medium;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ImplementMagicDictionary_676 {
     /**
@@ -30,112 +32,44 @@ public class ImplementMagicDictionary_676 {
      * boolean param_2 = obj.search(word);
      */
 
-    // Solution: http://www.cnblogs.com/shuashuashua/p/7561371.html
+    /**
+     Solution:
+     http://www.cnblogs.com/shuashuashua/p/7561371.html
+     http://www.cnblogs.com/grandyang/p/7612918.html
+     */
     public static class MagicDictionary {
-        class Node {
-            char val;
-            boolean isWordEnd;
-            Node[] children = new Node[26];
+        Map<String, List<int[]>> map = new HashMap<String, List<int[]>>();
 
-            public Node(char val, boolean isWordEnd) {
-                this.val = val;
-                this.isWordEnd = isWordEnd;
-            }
-        }
-
-        Node root;
         /** Initialize your data structure here. */
         public MagicDictionary() {
-            this.root = new Node(' ', false);
         }
 
         /** Build a dictionary through a list of words */
         public void buildDict(String[] dict) {
-            Node cur = this.root;
-            for(String str : dict) {
-                for(int i = 0; i < str.length(); i++) {
-                    char c = str.charAt(i);
-                    if (i == str.length()-1) {
-                        cur.children[c - 'a'] = new Node(c, true);
-                    } else {
-                        cur.children[c - 'a'] =
-                                cur.children[c - 'a'] == null ? new Node(c, false) : cur.children[c - 'a'];
+            for(String word : dict) {
+                for(int i = 0; i < word.length(); i++) {
+                    String changedWord = word.substring(0, i) + word.substring(i+1);
+                    if (!map.containsKey(changedWord)) {
+                        map.put(changedWord, new ArrayList<int[]>());
                     }
-                    cur = cur.children[c - 'a'];
+                    map.get(changedWord).add(new int[]{i, word.charAt(i)});
                 }
-                cur = this.root;
             }
         }
 
         /** Returns if there is any word in the trie that equals to the given word after modifying exactly one character */
         public boolean search(String word) {
-            List<Node> curs = new ArrayList<Node>();
-            List<Boolean> unmatcheds = new ArrayList<Boolean>();
-            curs.add(this.root);
-            unmatcheds.add(false);
-            for (int i = 0; i < word.length(); i++) {
-                List<Node> nextCurs = new ArrayList<Node>();
-                List<Boolean> newUnmatcheds = new ArrayList<Boolean>();
-                char c = word.charAt(i);
-                for(int j = 0; j < curs.size(); j++) {
-                    Boolean unmachted = unmatcheds.get(j);
-                    Node cur = curs.get(j);
-                    Node child = cur.children[c - 'a'];
-                    if (child == null) { // not matched once
-                        if (i == word.length()-1) {
-                            Boolean hasChildren = false;
-                            for (Node item : cur.children) {
-                                if (item != null) {
-                                    hasChildren = true;
-                                    break;
-                                }
-                            }
-                            if (hasChildren && !unmachted) {
-                                return !unmachted;
-                            }
-                        }
-                        if (unmachted) {
-                            continue;
-                        }
-                        for(Node item : cur.children) {
-                            if (item == null || item.isWordEnd
-                                    ) {
-                                continue;
-                            }
-                            nextCurs.add(item);
-                            newUnmatcheds.add(true);
-                        }
-                    } else {
-                        if (i == word.length()-1) {
-                            if (child.isWordEnd) {
-                                if (unmachted) {
-                                    return unmachted;
-                                }
-                            }
-                            for (Node item : cur.children) {
-                                if (item == null || item == child) {
-                                    continue;
-                                }
-                                nextCurs.add(item);
-                                newUnmatcheds.add(true);
-                            }
-                        } else {
-                            nextCurs.add(child);
-                            newUnmatcheds.add(unmachted);
-                            if (!unmachted) {
-                                for (Node item : cur.children) {
-                                    if (item == null || item == child || item.isWordEnd) {
-                                        continue;
-                                    }
-                                    nextCurs.add(item);
-                                    newUnmatcheds.add(true);
-                                }
-                            }
+            for(int i = 0; i < word.length(); i++) {
+                String changedWord = word.substring(0, i) + word.substring(i + 1);
+                if (map.containsKey(changedWord)) {
+                    for (int[] pair : map.get(changedWord)) { // 0: position, 1: letter
+                        int pos = pair[0];
+                        int oldLetter = pair[1];
+                        if (pos == i && oldLetter != word.charAt(i)) {
+                            return true;
                         }
                     }
                 }
-                curs = nextCurs;
-                unmatcheds = newUnmatcheds;
             }
             return false;
         }

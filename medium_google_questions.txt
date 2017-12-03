@@ -106,6 +106,6 @@
 [658] Find K Closest Elements                                      Medium (35.70 %)
 [659] Split Array into Consecutive Subsequences                    Medium (35.60 %)
 - [667] Beautiful Arrangement II                                     Medium (51.80 %)
-- [676] Implement Magic Dictionary                                   Medium (50.10 %)
+X [676] Implement Magic Dictionary                                   Medium (50.10 %)
 X [681] Next Closest Time                                            Medium (42.90 %)
 - [684] Redundant Connection                                         Medium (35.60 %)
