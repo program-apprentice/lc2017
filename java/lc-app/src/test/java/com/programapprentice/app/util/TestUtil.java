@@ -11,4 +11,9 @@ public class TestUtil {
         }
     }
 
+    public static void printArray(int[] nums) {
+        for(int n : nums) {
+            System.out.print(n + "   ");
+        }
+    }
 }
