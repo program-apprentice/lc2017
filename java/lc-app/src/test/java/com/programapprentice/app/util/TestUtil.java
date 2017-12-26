@@ -2,6 +2,8 @@ package com.programapprentice.app.util;
 
 import com.programapprentice.app.model.ListNode;
 
+import java.util.List;
+
 public class TestUtil {
     public static void printListNode(ListNode head) {
         ListNode p = head;
@@ -12,6 +14,12 @@ public class TestUtil {
     }
 
     public static void printArray(int[] nums) {
+        for(int n : nums) {
+            System.out.print(n + "   ");
+        }
+    }
+
+    public static void printArrayList(List<Integer> nums) {
         for(int n : nums) {
             System.out.print(n + "   ");
         }
