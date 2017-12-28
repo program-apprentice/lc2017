@@ -98,7 +98,7 @@
 - [549] Binary Tree Longest Consecutive Sequence II                  Medium (41.10 %)
 - [560] Subarray Sum Equals K                                        Medium (40.30 %)
 - [562] Longest Line of Consecutive One in Matrix                    Medium (40.50 %)
-- [583] Delete Operation for Two Strings                             Medium (44.00 %)
+X [583] Delete Operation for Two Strings                             Medium (44.00 %)
 X [616] Add Bold Tag in String                                       Medium (38.60 %)
 X [638] Shopping Offers                                              Medium (42.90 %)
 X [651] 4 Keys Keyboard                                              Medium (47.90 %)
