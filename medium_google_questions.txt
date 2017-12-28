@@ -100,7 +100,7 @@
 - [562] Longest Line of Consecutive One in Matrix                    Medium (40.50 %)
 - [583] Delete Operation for Two Strings                             Medium (44.00 %)
 X [616] Add Bold Tag in String                                       Medium (38.60 %)
-- [638] Shopping Offers                                              Medium (42.90 %)
+X [638] Shopping Offers                                              Medium (42.90 %)
 X [651] 4 Keys Keyboard                                              Medium (47.90 %)
 X [652] Find Duplicate Subtrees                                      Medium (34.80 %)
 X [658] Find K Closest Elements                                      Medium (35.70 %)
