@@ -94,7 +94,7 @@
 + [535] Encode and Decode TinyURL                                    Medium (74.30 %)
 X [542] 01 Matrix                                                    Medium (33.30 %)
 - [544] Output Contest Matches                                       Medium (71.00 %)
-- [545] Boundary of Binary Tree                                      Medium (31.60 %)
+X [545] Boundary of Binary Tree                                      Medium (31.60 %)
 - [549] Binary Tree Longest Consecutive Sequence II                  Medium (41.10 %)
 X [560] Subarray Sum Equals K                                        Medium (40.30 %)
 X [562] Longest Line of Consecutive One in Matrix                    Medium (40.50 %)
