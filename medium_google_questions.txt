@@ -89,7 +89,7 @@
 - [524] Longest Word in Dictionary through Deleting                  Medium (42.90 %)
 - [526] Beautiful Arrangement                                        Medium (54.60 %)
 X [531] Lonely Pixel I                                               Medium (55.20 %)
-- [533] Lonely Pixel II                                              Medium (44.20 %)
+X [533] Lonely Pixel II                                              Medium (44.20 %)
 + [534] Design TinyURL                                               Medium (00.00 %)
 + [535] Encode and Decode TinyURL                                    Medium (74.30 %)
 X [542] 01 Matrix                                                    Medium (33.30 %)

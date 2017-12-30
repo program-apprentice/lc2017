@@ -1,5 +1,8 @@
 package com.programapprentice.app.google.medium;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LonelyPixelII_533 {
     /**
      https://leetcode.com/problems/lonely-pixel-ii/description/
@@ -43,21 +46,59 @@ public class LonelyPixelII_533 {
         int width = picture[0].length;
         int counter = 0;
 
-        int[] rowsBlack = new int[height];
+        List<List<Integer>> rowsBlack = new ArrayList<List<Integer>>();
+        for(int i = 0; i < height; i++) {
+            rowsBlack.add(new ArrayList<Integer>());
+        }
+        List<List<Integer>> colsBlack = new ArrayList<List<Integer>>(width);
+        for(int i = 0; i < width; i++) {
+            colsBlack.add(new ArrayList<Integer>());
+        }
         int[] rowsBlackCounter = new int[height];
-        int[] colsBlack = new int[width];
         int[] colsBlackCounter = new int[width];
+        String[] rowsString = new String[height];
+        String[] colsString = new String[width];
 
         for(int i = 0; i < height; i++) {
+            String s = "";
             for(int j = 0; j < width; j++) {
                 if (picture[i][j] == 'B') {
-                    rowsBlack[i] = j;
                     rowsBlackCounter[i] += 1;
-                    colsBlack[j] = i;
                     colsBlackCounter[j] += 1;
+                    rowsBlack.get(i).add(j);
+                    colsBlack.get(j).add(i);
+                }
+                s += picture[i][j];
+            }
+            rowsString[i] = s;
+        }
+
+        for(int j = 0; j < width; j++) {
+            String s = "";
+            for(int i = 0; i < height; i++) {
+                s += picture[i][j];
+            }
+            colsString[j] = s;
+        }
+
+        for(int i = 0; i < height; i++) {
+            if (rowsBlackCounter[i] == N) {
+                for(int col : rowsBlack.get(i)) {
+                    if (colsBlackCounter[col] == N) {
+                        String basicString = rowsString[i];
+                        boolean isSame = true;
+                        for(int row : colsBlack.get(col)) {
+                            if (!basicString.equals(rowsString[row])) {
+                                isSame = false;
+                            }
+                        }
+                        if (isSame) {
+                            counter++;
+                        }
+                    }
                 }
             }
         }
-
+        return counter;
     }
 }
