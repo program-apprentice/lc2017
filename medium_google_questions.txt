@@ -87,7 +87,7 @@ X [490] The Maze                                                     Medium (43.
 X [505] The Maze II                                                  Medium (37.70 %)
 - [522] Longest Uncommon Subsequence II                              Medium (31.70 %)
 - [524] Longest Word in Dictionary through Deleting                  Medium (42.90 %)
-- [526] Beautiful Arrangement                                        Medium (54.60 %)
+X [526] Beautiful Arrangement                                        Medium (54.60 %)
 X [531] Lonely Pixel I                                               Medium (55.20 %)
 X [533] Lonely Pixel II                                              Medium (44.20 %)
 + [534] Design TinyURL                                               Medium (00.00 %)
