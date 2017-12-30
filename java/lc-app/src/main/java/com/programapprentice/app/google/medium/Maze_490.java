@@ -6,6 +6,9 @@ import java.util.Queue;
 public class Maze_490 {
     /**
      https://leetcode.com/problems/the-maze/description/
+
+     Solution:
+     http://www.cnblogs.com/grandyang/p/6381458.html
      * */
     class Pair {
         int x;
