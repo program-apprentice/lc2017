@@ -79,7 +79,7 @@
 [482] License Key Formatting                                       Medium (41.60 %)
 X [484] Find Permutation                                             Medium (55.00 %)
 X [486] Predict the Winner                                           Medium (45.10 %)
-- [487] Max Consecutive Ones II                                      Medium (45.40 %)
+X [487] Max Consecutive Ones II                                      Medium (45.40 %)
 X [490] The Maze                                                     Medium (43.20 %)
 + [494] Target Sum                                                   Medium (43.40 %)
 - [498] Diagonal Traverse                                            Medium (45.90 %)
