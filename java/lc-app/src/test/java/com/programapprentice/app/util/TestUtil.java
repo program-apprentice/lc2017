@@ -24,4 +24,14 @@ public class TestUtil {
             System.out.print(n + "   ");
         }
     }
+
+    public static void printListOfArray(List<int[]> nums) {
+        for(int[] n : nums) {
+            System.out.print("[");
+            for(int i : n) {
+                System.out.print(i + " ");
+            }
+            System.out.print("]");
+        }
+    }
 }
