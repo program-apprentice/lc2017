@@ -52,7 +52,7 @@
 [361] Bomb Enemy                                                   Medium (39.10 %)
 [362] Design Hit Counter                                           Medium (54.30 %)
 [368] Largest Divisible Subset                                     Medium (33.70 %)
-- [369] Plus One Linked List                                         Medium (54.60 %)
+X [369] Plus One Linked List                                         Medium (54.60 %)
 X [370] Range Addition                                               Medium (56.20 %)
 - [373] Find K Pairs with Smallest Sums                              Medium (30.80 %)
 - [375] Guess Number Higher or Lower II                              Medium (35.80 %)
