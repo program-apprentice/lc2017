@@ -53,7 +53,7 @@
 [362] Design Hit Counter                                           Medium (54.30 %)
 [368] Largest Divisible Subset                                     Medium (33.70 %)
 - [369] Plus One Linked List                                         Medium (54.60 %)
-- [370] Range Addition                                               Medium (56.20 %)
+X [370] Range Addition                                               Medium (56.20 %)
 - [373] Find K Pairs with Smallest Sums                              Medium (30.80 %)
 - [375] Guess Number Higher or Lower II                              Medium (35.80 %)
 + [377] Combination Sum IV                                           Medium (42.20 %)
