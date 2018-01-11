@@ -48,7 +48,7 @@
 [353] Design Snake Game                                            Medium (26.70 %)
 [356] Line Reflection                                              Medium (30.10 %)
 [357] Count Numbers with Unique Digits                             Medium (46.10 %)
-- [360] Sort Transformed Array                                       Medium (44.10 %)
+X [360] Sort Transformed Array                                       Medium (44.10 %)
 X [361] Bomb Enemy                                                   Medium (39.10 %)
 - [362] Design Hit Counter                                           Medium (54.30 %)
 - [368] Largest Divisible Subset                                     Medium (33.70 %)
