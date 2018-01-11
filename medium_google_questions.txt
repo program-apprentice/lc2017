@@ -54,7 +54,7 @@
 - [368] Largest Divisible Subset                                     Medium (33.70 %)
 X [369] Plus One Linked List                                         Medium (54.60 %)
 X [370] Range Addition                                               Medium (56.20 %)
-- [373] Find K Pairs with Smallest Sums                              Medium (30.80 %)
+*X [373] Find K Pairs with Smallest Sums                              Medium (30.80 %)
 X [375] Guess Number Higher or Lower II                              Medium (35.80 %)
 + [377] Combination Sum IV                                           Medium (42.20 %)
 X [378] Kth Smallest Element in a Sorted Matrix                      Medium (45.00 %)
