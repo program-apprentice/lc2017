@@ -46,7 +46,7 @@
 [348] Design Tic-Tac-Toe                                           Medium (46.00 %)
 - [351] Android Unlock Patterns                                      Medium (44.20 %)
 [353] Design Snake Game                                            Medium (26.70 %)
-- [356] Line Reflection                                              Medium (30.10 %)
+X [356] Line Reflection                                              Medium (30.10 %)
 X [357] Count Numbers with Unique Digits                             Medium (46.10 %)
 X [360] Sort Transformed Array                                       Medium (44.10 %)
 X [361] Bomb Enemy                                                   Medium (39.10 %)
