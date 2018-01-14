@@ -44,7 +44,7 @@
 - [332] Reconstruct Itinerary                                        Medium (29.40 %)
 + [341] Flatten Nested List Iterator                                 Medium (42.00 %)
 [348] Design Tic-Tac-Toe                                           Medium (46.00 %)
-- [351] Android Unlock Patterns                                      Medium (44.20 %)
+X [351] Android Unlock Patterns                                      Medium (44.20 %)
 [353] Design Snake Game                                            Medium (26.70 %)
 X [356] Line Reflection                                              Medium (30.10 %)
 X [357] Count Numbers with Unique Digits                             Medium (46.10 %)

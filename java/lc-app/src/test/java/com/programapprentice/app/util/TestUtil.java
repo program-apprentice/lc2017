@@ -25,6 +25,12 @@ public class TestUtil {
         }
     }
 
+    public static void printStringArrayList(List<String> nums) {
+        for(String n : nums) {
+            System.out.print(n + "   ");
+        }
+    }
+
     public static void printListOfArray(List<int[]> nums) {
         for(int[] n : nums) {
             System.out.print("[");
