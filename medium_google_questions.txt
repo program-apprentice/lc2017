@@ -39,7 +39,7 @@
 - [318] Maximum Product of Word Lengths                              Medium (44.70 %)
 - [320] Generalized Abbreviation                                     Medium (45.20 %)
 X [323] Number of Connected Components in an Undirected Graph        Medium (48.20 %)
-X [324] Wiggle Sort II                                               Medium (26.10 %)
+*X [324] Wiggle Sort II                                               Medium (26.10 %)
 - [331] Verify Preorder Serialization of a Binary Tree               Medium (36.50 %)
 X [332] Reconstruct Itinerary                                        Medium (29.40 %)
 + [341] Flatten Nested List Iterator                                 Medium (42.00 %)
