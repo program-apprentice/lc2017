@@ -36,7 +36,7 @@
 [310] Minimum Height Trees                                         Medium (28.80 %)
 - [313] Super Ugly Number                                            Medium (37.90 %)
 + [314] Binary Tree Vertical Order Traversal                         Medium (37.10 %)
-- [318] Maximum Product of Word Lengths                              Medium (44.70 %)
+X [318] Maximum Product of Word Lengths                              Medium (44.70 %)
 - [320] Generalized Abbreviation                                     Medium (45.20 %)
 X [323] Number of Connected Components in an Undirected Graph        Medium (48.20 %)
 *X [324] Wiggle Sort II                                               Medium (26.10 %)
