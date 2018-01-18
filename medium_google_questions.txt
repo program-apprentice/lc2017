@@ -34,7 +34,7 @@
 - [298] Binary Tree Longest Consecutive Sequence                     Medium (41.20 %)
 - [309] Best Time to Buy and Sell Stock with Cooldown                Medium (41.10 %)
 - [310] Minimum Height Trees                                         Medium (28.80 %)
-- [313] Super Ugly Number                                            Medium (37.90 %)
+*X [313] Super Ugly Number                                            Medium (37.90 %)
 + [314] Binary Tree Vertical Order Traversal                         Medium (37.10 %)
 X [318] Maximum Product of Word Lengths                              Medium (44.70 %)
 X [320] Generalized Abbreviation                                     Medium (45.20 %)
