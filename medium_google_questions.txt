@@ -28,7 +28,7 @@
 [281] Zigzag Iterator                                              Medium (51.10 %)
 [284] Peeking Iterator                                             Medium (35.50 %)
 + [286] Walls and Gates                                              Medium (44.60 %)
-- [288] Unique Word Abbreviation                                     Medium (17.00 %)
+X [288] Unique Word Abbreviation                                     Medium (17.00 %)
 - [289] Game of Life                                                 Medium (37.10 %)
 - [294] Flip Game II                                                 Medium (46.40 %)
 X [298] Binary Tree Longest Consecutive Sequence                     Medium (41.20 %)
