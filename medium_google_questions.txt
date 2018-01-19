@@ -31,7 +31,7 @@
 - [288] Unique Word Abbreviation                                     Medium (17.00 %)
 - [289] Game of Life                                                 Medium (37.10 %)
 - [294] Flip Game II                                                 Medium (46.40 %)
-- [298] Binary Tree Longest Consecutive Sequence                     Medium (41.20 %)
+X [298] Binary Tree Longest Consecutive Sequence                     Medium (41.20 %)
 - [309] Best Time to Buy and Sell Stock with Cooldown                Medium (41.10 %)
 X [310] Minimum Height Trees                                         Medium (28.80 %)
 *X [313] Super Ugly Number                                            Medium (37.90 %)
