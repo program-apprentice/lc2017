@@ -29,7 +29,7 @@
 [284] Peeking Iterator                                             Medium (35.50 %)
 + [286] Walls and Gates                                              Medium (44.60 %)
 X [288] Unique Word Abbreviation                                     Medium (17.00 %)
-- [289] Game of Life                                                 Medium (37.10 %)
+X [289] Game of Life                                                 Medium (37.10 %)
 - [294] Flip Game II                                                 Medium (46.40 %)
 X [298] Binary Tree Longest Consecutive Sequence                     Medium (41.20 %)
 - [309] Best Time to Buy and Sell Stock with Cooldown                Medium (41.10 %)
