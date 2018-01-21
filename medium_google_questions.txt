@@ -26,7 +26,7 @@
 [279] Perfect Squares                                              Medium (37.30 %)
 [280] Wiggle Sort                                                  Medium (57.60 %)
 [281] Zigzag Iterator                                              Medium (51.10 %)
-[284] Peeking Iterator                                             Medium (35.50 %)
+- [284] Peeking Iterator                                             Medium (35.50 %)
 + [286] Walls and Gates                                              Medium (44.60 %)
 X [288] Unique Word Abbreviation                                     Medium (17.00 %)
 X [289] Game of Life                                                 Medium (37.10 %)
