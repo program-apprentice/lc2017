@@ -24,7 +24,7 @@
 [271] Encode and Decode Strings                                    Medium (26.20 %)
 + [274] H-Index                                                      Medium (33.40 %)
 - [279] Perfect Squares                                              Medium (37.30 %)
-- [280] Wiggle Sort                                                  Medium (57.60 %)
+X [280] Wiggle Sort                                                  Medium (57.60 %)
 X [281] Zigzag Iterator                                              Medium (51.10 %)
 X [284] Peeking Iterator                                             Medium (35.50 %)
 + [286] Walls and Gates                                              Medium (44.60 %)
