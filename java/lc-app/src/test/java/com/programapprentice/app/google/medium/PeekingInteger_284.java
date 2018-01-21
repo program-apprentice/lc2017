@@ -48,7 +48,7 @@ public class PeekingInteger_284 {
 
         // hasNext() and next() should behave the same as in the Iterator interface.
         // Override them if needed.
-        @Override
+//        @Override
         public Integer next() {
             if (nextLocation >= data.size()) {
                 return null;
@@ -58,7 +58,7 @@ public class PeekingInteger_284 {
             return cur;
         }
 
-        @Override
+//        @Override
         public boolean hasNext() {
             return nextLocation < data.size();
         }
