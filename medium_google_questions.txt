@@ -8,7 +8,7 @@
 + [139] Word Break                                                   Medium (30.40 %)
 X [162] Find Peak Element                                            Medium (37.90 %)
 X [163] Missing Ranges                                               Medium (24.00 %)
-- [166] Fraction to Recurring Decimal                                Medium (17.70 %)
+X [166] Fraction to Recurring Decimal                                Medium (17.70 %)
 + [173] Binary Search Tree Iterator                                  Medium (42.00 %)
 + [200] Number of Islands                                            Medium (35.20 %)
 + [208] Implement Trie (Prefix Tree                                  Medium (29.00 %)
