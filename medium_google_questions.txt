@@ -1,6 +1,6 @@
 + [017] Letter Combinations of a Phone Number                        Medium (35.10 %)
 X [022] Generate Parentheses                                         Medium (45.90 %)
-[031] Next Permutation                                             Medium (28.80 %)
+X [031] Next Permutation                                             Medium (28.80 %)
 + [050]  Pow(x, n                                                    Medium (26.10 %)
 [054] Spiral Matrix                                                Medium (26.40 %)
 + [056] Merge Intervals                                              Medium (30.70 %)
