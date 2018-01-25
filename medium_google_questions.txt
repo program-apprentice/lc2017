@@ -2,7 +2,7 @@
 X [022] Generate Parentheses                                         Medium (45.90 %)
 X [031] Next Permutation                                             Medium (28.80 %)
 + [050]  Pow(x, n                                                    Medium (26.10 %)
-[054] Spiral Matrix                                                Medium (26.40 %)
+X [054] Spiral Matrix                                                Medium (26.40 %)
 + [056] Merge Intervals                                              Medium (30.70 %)
 + [133] Clone Graph                                                  Medium (25.10 %)
 + [139] Word Break                                                   Medium (30.40 %)
