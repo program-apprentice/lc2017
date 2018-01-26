@@ -18,7 +18,7 @@ X [247] Strobogrammatic Number II                                    Medium (40.
 X [249] Group Shifted Strings                                        Medium (42.20 %)
 X [251] Flatten 2D Vector                                            Medium (40.80 %)
 + [253] Meeting Rooms II                                             Medium (39.10 %- )
-- [259] 3Sum Smaller                                                 Medium (41.60 %)
+X [259] 3Sum Smaller                                                 Medium (41.60 %)
 + [261] Graph Valid Tree                                             Medium (38.00 %)
 X [271] Encode and Decode Strings                                    Medium (26.20 %)
 + [274] H-Index                                                      Medium (33.40 %)
