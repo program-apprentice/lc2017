@@ -78,7 +78,7 @@ public class RedundantConnectionII_685 {
         if (isInCircle(parent2, childToParentMap)) {
             return edge2;
         }
-        return null;
+        return edge2;
     }
 
     public int[] findCircle(int[][] edges) {
@@ -88,6 +88,7 @@ public class RedundantConnectionII_685 {
         for(int[] edge : edges) {
             int child = edge[1];
             int parent = edge[0];
+            childToParentMap.put(child, parent);
             if (isInCircle(parent, childToParentMap)) {
                 return edge;
             }
