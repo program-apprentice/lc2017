@@ -57,4 +57,4 @@
 [679] 24 Game                                                      Hard   (38.60 %)
 [683] K Empty Slots                                                Hard   (37.20 %)
 X [685] Redundant Connection II                                      Hard   (28.90 %)
-[689] Maximum Sum of 3 Non-Overlapping Subarrays                   Hard   (43.00 %)
+X [689] Maximum Sum of 3 Non-Overlapping Subarrays                   Hard   (43.00 %)
