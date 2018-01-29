@@ -13,6 +13,12 @@ public class TestUtil {
         }
     }
 
+    public static void printIntegerArray(List<Integer> nums) {
+        for(Integer n : nums) {
+            System.out.print(n + "   ");
+        }
+    }
+
     public static void printArray(List<String> nums) {
         for(String n : nums) {
             System.out.print(n + "   ");
