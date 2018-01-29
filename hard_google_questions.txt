@@ -53,7 +53,7 @@
 [587] Erect the Fence                                              Hard   (32.40 %)
 [644] Maximum Average Subarray II                                  Hard   (22.00 %)
 X [656] Coin Path                                                    Hard   (24.50 %)
-- [668] Kth Smallest Number in Multiplication Table                  Hard   (36.90 %)
+X [668] Kth Smallest Number in Multiplication Table                  Hard   (36.90 %)
 [679] 24 Game                                                      Hard   (38.60 %)
 X [683] K Empty Slots                                                Hard   (37.20 %)
 X [685] Redundant Connection II                                      Hard   (28.90 %)
