@@ -36,7 +36,7 @@
 [358] Rearrange String k Distance Apart                            Hard   (31.60 %)
 - [363] Max Sum of Rectangle No Larger Than K                        Hard   (33.30 %)
 - [391] Perfect Rectangle                                            Hard   (26.70 %)
-- [407] Trapping Rain Water II                                       Hard   (37.30 %)
+X [407] Trapping Rain Water II                                       Hard   (37.30 %)
 X [411] Minimum Unique Word Abbreviation                             Hard   (33.00 %)
 X [425] Word Squares                                                 Hard   (43.00 %)
 X [460] LFU Cache                                                    Hard   (24.30 %)
