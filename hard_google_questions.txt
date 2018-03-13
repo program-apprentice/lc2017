@@ -33,7 +33,7 @@
 *X [336] Palindrome Pairs                                             Hard   (26.40 %)
 *X [340] Longest Substring with At Most K Distinct Characters         Hard   (39.00 %)
 - [354] Russian Doll Envelopes                                       Hard   (32.30 %)
-- [358] Rearrange String k Distance Apart                            Hard   (31.60 %)
+*X [358] Rearrange String k Distance Apart                            Hard   (31.60 %)
 - [363] Max Sum of Rectangle No Larger Than K                        Hard   (33.30 %)
 *X [391] Perfect Rectangle                                            Hard   (26.70 %)
 X [407] Trapping Rain Water II                                       Hard   (37.30 %)
