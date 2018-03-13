@@ -31,7 +31,7 @@
 [329] Longest Increasing Path in a Matrix                          Hard   (36.70 %)
 [330] Patching Array                                               Hard   (32.20 %)
 *X [336] Palindrome Pairs                                             Hard   (26.40 %)
-- [340] Longest Substring with At Most K Distinct Characters         Hard   (39.00 %)
+*X [340] Longest Substring with At Most K Distinct Characters         Hard   (39.00 %)
 - [354] Russian Doll Envelopes                                       Hard   (32.30 %)
 - [358] Rearrange String k Distance Apart                            Hard   (31.60 %)
 - [363] Max Sum of Rectangle No Larger Than K                        Hard   (33.30 %)
