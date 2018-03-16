@@ -50,6 +50,6 @@ public class BurstBallons_312 {
                 }
             }
         }
-        return opts[0][n-1];
+        return opts[1][n];
     }
 }
