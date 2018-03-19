@@ -13,7 +13,7 @@
 [214] Shortest Palindrome                                          Hard   (24.60 %)
 + [218] The Skyline Problem                                          Hard   (27.80 %)
 - [224] Basic Calculator                                             Hard   (27.50 %)
-- [239] Sliding Window Maximum                                       Hard   (33.40 %)
+X [239] Sliding Window Maximum                                       Hard   (33.40 %)
 + [269] Alien Dictionary                                             Hard   (24.90 %)
 [272] Closest Binary Search Tree Value II                          Hard   (39.30 %)
 + [282] Expression Add Operators                                     Hard   (30.00 %)
